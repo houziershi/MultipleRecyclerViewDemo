@@ -13,6 +13,7 @@ import java.util.Map;
 /**
  * Created by guokun on 2017/1/7.
  * Description:
+ *
  * @param
  * @return
  */
@@ -68,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
             normalList.add("正常布局" + i);
         }
 
-        adapter = new RecyclerAdapter(this,picList,channelList,girlList,normalList);
+        adapter = new RecyclerAdapter(this, picList, channelList, girlList, normalList);
         recyclerView.setAdapter(adapter);
 
     }
